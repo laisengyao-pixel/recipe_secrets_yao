@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Secrets Restaurant | Modern Seasonal Dining</title>
+<meta name="description" content="Recipe Secrets Restaurant serves modern seasonal cuisine crafted from the finest local ingredients in a warm, candlelit dining room. Reserve your table today.">
+<meta property="og:title" content="Recipe Secrets Restaurant | Modern Seasonal Dining">
+<meta property="og:description" content="Modern seasonal cuisine crafted from the finest local ingredients, served in a warm, candlelit dining room.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80">
+<!-- TODO: replace og:url with your live domain -->
+<meta property="og:url" content="https://example.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%BD%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="section-inner">
+    <a href="index.html" class="logo">Recipe <span>Secrets</span></a>
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="specials.html">Specials</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="reservation.html" class="btn btn-gold">Book Now</a>
+    </nav>
+    <div class="header-actions">
+      <a href="reservation.html" class="btn btn-gold">Book Now</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO: crossfading slideshow -->
+  <section class="hero">
+    <div class="hero-slide" data-img="hero.home.0"></div>
+    <div class="hero-slide" data-img="hero.home.1"></div>
+    <div class="hero-slide" data-img="hero.home.2"></div>
+    <div class="hero-content">
+      <span class="eyebrow">Downtown Portside District</span>
+      <h1>Recipe Secrets Restaurant</h1>
+      <p class="tagline"><!-- TODO: refine tagline -->Modern seasonal cuisine, crafted with local ingredients and a whole lot of heart.</p>
+      <div class="hero-actions">
+        <a href="reservation.html" class="btn btn-gold">Reserve a Table</a>
+        <a href="specials.html" class="btn btn-outline" style="color:#fff;">View Menu</a>
+      </div>
+    </div>
+    <span class="scroll-cue" aria-hidden="true"></span>
+  </section>
+
+  <!-- INTRO SPLIT -->
+  <section class="section">
+    <div class="section-inner split reveal">
+      <div class="split-media">
+        <img data-img="home.introSplit" alt="Chef plating a dish with careful precision in the Recipe Secrets kitchen" loading="lazy" width="1200" height="1500">
+      </div>
+      <div class="split-text">
+        <span class="eyebrow">Our Philosophy</span>
+        <h2>Honest food, cooked with care</h2>
+        <div class="gold-divider" style="margin-left:0;"></div>
+        <p><!-- TODO: replace with your own story -->For over a decade, Recipe Secrets has brought together the finest seasonal produce, time-honoured technique and a genuine love of hospitality. Every plate that leaves our kitchen tells a story.</p>
+        <p>From our wood-fired oven to our hand-selected wine list, every detail is designed to make you feel like family — if your family happened to be exceptional cooks.</p>
+        <a href="about.html" class="btn btn-outline" style="color:var(--color-charcoal); border-color: var(--color-terracotta);">Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED SPECIALS -->
+  <section class="section bg-cream-dark">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="eyebrow">This Week</span>
+        <h2>Featured Specials</h2>
+        <div class="gold-divider"></div>
+        <p>A taste of what's new in the kitchen right now.</p>
+      </div>
+      <div class="card-grid">
+        <article class="special-card reveal">
+          <div class="card-img-wrap"><img data-img="home.specials.0" alt="Pan-seared duck breast with red wine jus" loading="lazy" width="1000" height="750"></div>
+          <div class="card-body">
+            <h3>Pan-Seared Duck Breast</h3>
+            <p>Red wine jus, celeriac purée, roasted root vegetables.</p>
+            <span class="price">$34</span>
+          </div>
+        </article>
+        <article class="special-card reveal">
+          <div class="card-img-wrap"><img data-img="home.specials.1" alt="Wood-fired artisan pizza with fresh basil" loading="lazy" width="1000" height="750"></div>
+          <div class="card-body">
+            <h3>Wood-Fired Margherita</h3>
+            <p>San Marzano tomato, fior di latte, fresh basil, extra virgin olive oil.</p>
+            <span class="price">$22</span>
+          </div>
+        </article>
+        <article class="special-card reveal">
+          <div class="card-img-wrap"><img data-img="home.specials.2" alt="Handmade pasta with wild mushrooms and truffle cream" loading="lazy" width="1000" height="750"></div>
+          <div class="card-body">
+            <h3>Handmade Tagliatelle</h3>
+            <p>Wild mushrooms, black truffle, aged parmesan cream.</p>
+            <span class="price">$28</span>
+          </div>
+        </article>
+      </div>
+      <div class="text-center mt-2">
+        <a href="specials.html" class="btn btn-outline" style="color:var(--color-charcoal); border-color: var(--color-terracotta);">See Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="eyebrow">A Glimpse Inside</span>
+        <h2>Gallery</h2>
+        <div class="gold-divider"></div>
+        <p>A look at our dishes, our space and the moments in between.</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <button type="button" class="span-2 row-2" data-lightbox-key="home.gallery.0" data-lightbox-alt="Flat lay of seasonal dishes on a wooden table" aria-label="View larger image: seasonal dishes flat lay">
+          <img data-img="home.gallery.0" alt="Flat lay of seasonal dishes on a wooden table" loading="lazy" width="900" height="900">
+        </button>
+        <button type="button" data-lightbox-key="home.gallery.1" data-lightbox-alt="Gourmet burger with crisp fries" aria-label="View larger image: gourmet burger">
+          <img data-img="home.gallery.1" alt="Gourmet burger with crisp fries" loading="lazy" width="450" height="320">
+        </button>
+        <button type="button" data-lightbox-key="home.gallery.2" data-lightbox-alt="Overhead view of a wood-fired pizza" aria-label="View larger image: wood-fired pizza">
+          <img data-img="home.gallery.2" alt="Overhead view of a wood-fired pizza" loading="lazy" width="450" height="320">
+        </button>
+        <button type="button" class="row-2" data-lightbox-key="home.gallery.3" data-lightbox-alt="Hands toasting glasses of red wine" aria-label="View larger image: toasting wine glasses">
+          <img data-img="home.gallery.3" alt="Hands toasting glasses of red wine" loading="lazy" width="450" height="640">
+        </button>
+        <button type="button" data-lightbox-key="home.gallery.4" data-lightbox-alt="Plated dessert with berries" aria-label="View larger image: plated dessert">
+          <img data-img="home.gallery.4" alt="Plated dessert with berries" loading="lazy" width="450" height="320">
+        </button>
+        <button type="button" data-lightbox-key="home.gallery.5" data-lightbox-alt="Rustic tart dessert on slate" aria-label="View larger image: rustic tart">
+          <img data-img="home.gallery.5" alt="Rustic tart dessert on slate" loading="lazy" width="450" height="320">
+        </button>
+        <button type="button" class="span-2" data-lightbox-key="home.gallery.6" data-lightbox-alt="Fresh vegetables and produce" aria-label="View larger image: fresh produce">
+          <img data-img="home.gallery.6" alt="Fresh vegetables and produce" loading="lazy" width="900" height="450">
+        </button>
+        <button type="button" data-lightbox-key="home.gallery.7" data-lightbox-alt="Elegant plated fine dining dish" aria-label="View larger image: fine dining dish">
+          <img data-img="home.gallery.7" alt="Elegant plated fine dining dish" loading="lazy" width="450" height="320">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS (parallax) -->
+  <section class="testimonials-section" data-img="home.testimonialsBg">
+    <div class="section-inner">
+      <div class="section-header reveal" style="color:#fff;">
+        <span class="eyebrow" style="color: var(--color-gold-light);">Kind Words</span>
+        <h2 style="color:#fff;">What Our Guests Say</h2>
+        <div class="gold-divider"></div>
+      </div>
+      <div class="testimonial-track">
+        <blockquote class="testimonial reveal">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <p class="quote">"Hands down the best meal we've had this year. The duck was cooked to perfection and the service felt like old friends."</p>
+          <p class="author">— Jamie L., regular guest</p>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <p class="quote">"Romantic, warm, and the flavors genuinely surprised us. We've already booked our next anniversary dinner here."</p>
+          <p class="author">— Priya & Noah</p>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <p class="quote">"The tasting menu is a masterclass. Every course told a story. Worth every penny."</p>
+          <p class="author">— Marcus T.</p>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS / CTA BANNER -->
+  <section class="cta-banner" data-img="home.ctaBanner">
+    <div class="section-inner reveal">
+      <span class="eyebrow" style="color: var(--color-gold-light);">Opening Hours</span>
+      <h2>We'd Love to Host You</h2>
+      <ul class="hours-list">
+        <li><span>Monday – Thursday</span><span>11:00 AM – 10:00 PM</span></li>
+        <li><span>Friday – Saturday</span><span>11:00 AM – 11:30 PM</span></li>
+        <li><span>Sunday</span><span>10:00 AM – 9:00 PM</span></li>
+      </ul>
+      <a href="reservation.html" class="btn btn-gold">Reserve a Table</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="texture" data-img="footerTexture" aria-hidden="true"></div>
+  <div class="section-inner footer-grid">
+    <div>
+      <a href="index.html" class="logo">Recipe <span>Secrets</span></a>
+      <p><!-- TODO: refine footer blurb -->Modern seasonal cuisine in the heart of the Portside District.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 9H15V6.5h-1.5C11.6 6.5 10 8.1 10 10.5V12H8v2.5h2V21h2.5v-6.5H15l.5-2.5h-3v-1c0-.6.4-1 1-1z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 4c2.4 0 2.7 0 3.6.05.9.05 1.5.2 2 .4.5.2 1 .5 1.4.9.4.4.7.9.9 1.4.2.5.35 1.1.4 2C20.4 9.3 20.4 9.6 20.4 12s0 2.7-.05 3.6c-.05.9-.2 1.5-.4 2-.2.5-.5 1-.9 1.4-.4.4-.9.7-1.4.9-.5.2-1.1.35-2 .4-.9.05-1.2.05-3.6.05s-2.7 0-3.6-.05c-.9-.05-1.5-.2-2-.4-.5-.2-1-.5-1.4-.9-.4-.4-.7-.9-.9-1.4-.2-.5-.35-1.1-.4-2C3.6 14.7 3.6 14.4 3.6 12s0-2.7.05-3.6c.05-.9.2-1.5.4-2 .2-.5.5-1 .9-1.4.4-.4.9-.7 1.4-.9.5-.2 1.1-.35 2-.4C9.3 3.6 9.6 3.6 12 3.6M12 2C9.6 2 9.3 2 8.3 2.05c-1 .05-1.7.2-2.3.45-.6.25-1.2.6-1.7 1.1-.5.5-.85 1.1-1.1 1.7-.25.6-.4 1.3-.45 2.3C2.7 8.7 2.7 9 2.7 12s0 3.3.05 4.3c.05 1 .2 1.7.45 2.3.25.6.6 1.2 1.1 1.7.5.5 1.1.85 1.7 1.1.6.25 1.3.4 2.3.45C9.3 21.95 9.6 22 12 22s2.7 0 3.7-.05c1-.05 1.7-.2 2.3-.45.6-.25 1.2-.6 1.7-1.1.5-.5.85-1.1 1.1-1.7.25-.6.4-1.3.45-2.3.05-1 .05-1.3.05-4.3s0-3.3-.05-4.3c-.05-1-.2-1.7-.45-2.3-.25-.6-.6-1.2-1.1-1.7-.5-.5-1.1-.85-1.7-1.1-.6-.25-1.3-.4-2.3-.45C15.3 2 15 2 12 2z"/></svg></a>
+        <a href="#" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h3l-7.5 8.6L22 22h-6.6l-5.2-6.8L4 22H1l8-9.2L2 2h6.8l4.7 6.2L18 2zm-1.2 18h1.6L7.3 4H5.6l11.2 16z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Visit Us</h4>
+      <p><!-- TODO: replace address -->128 Harborview Lane<br>Portside District</p>
+      <p><!-- TODO: replace phone --><a href="tel:+15552147788">(555) 214-7788</a></p>
+      <p><!-- TODO: replace email --><a href="mailto:hello@recipesecrets.example">hello@recipesecrets.example</a></p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Thu: 11:00 AM – 10:00 PM</p>
+      <p>Fri–Sat: 11:00 AM – 11:30 PM</p>
+      <p>Sunday: 10:00 AM – 9:00 PM</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <p><a href="about.html">About Us</a></p>
+      <p><a href="specials.html">Specials</a></p>
+      <p><a href="reservation.html">Reservations</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Recipe Secrets Restaurant. All rights reserved. <!-- TODO: confirm legal business name --></p>
+  </div>
+</footer>
+
+<div class="lightbox" aria-hidden="true">
+  <button type="button" class="lightbox-close" aria-label="Close image viewer">&times;</button>
+  <button type="button" class="lightbox-prev" aria-label="Previous image">&#10094;</button>
+  <img src="" alt="">
+  <button type="button" class="lightbox-next" aria-label="Next image">&#10095;</button>
+</div>
+
+<script src="js/images.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
