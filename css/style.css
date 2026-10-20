@@ -4,15 +4,15 @@
 
 :root {
   /* Palette */
-  --color-burgundy: #6b1e23;
-  --color-burgundy-dark: #4a1317;
-  --color-terracotta: #8a3b2b;
+  --color-burgundy: #d4a017;
+  --color-burgundy-dark: #a67c00;
+  --color-terracotta: #e6b800;
   --color-cream: #f7f1e3;
   --color-cream-dark: #ede3cd;
   --color-charcoal: #231f1c;
   --color-charcoal-soft: #332d28;
-  --color-gold: #c9a356;
-  --color-gold-light: #e2c98a;
+  --color-gold: #f2c94c;
+  --color-gold-light: #f9e79f;
   --color-white: #fffaf3;
 
   /* Typography */
@@ -172,7 +172,7 @@ p { font-size: 1.05rem; }
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--color-gold);
   letter-spacing: 0.02em;
 }
 .logo span { color: var(--color-gold); }
@@ -494,7 +494,7 @@ p { font-size: 1.05rem; }
 .cta-banner::before {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(120deg, rgba(107,30,35,0.92), rgba(35,31,28,0.88));
+  background: linear-gradient(120deg, rgba(212,160,23,0.92), rgba(35,31,28,0.88));
 }
 .cta-banner .section-inner { position: relative; z-index: 1; }
 .cta-banner h2 { color: var(--color-white); }
